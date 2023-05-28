@@ -4,7 +4,6 @@ import { HomePageStyle, MainButton } from '../utils/styles';
 import { FaPlusCircle, FaDiscord } from "react-icons/fa";
 
 import logo from "../icons/logo.png";
-import { Redirect } from '../App';
 
 export const HomePage = () => {
 
