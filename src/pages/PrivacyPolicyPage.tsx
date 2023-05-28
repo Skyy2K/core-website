@@ -1,5 +1,4 @@
 import { Page } from "../utils/styles";
-import { redirectToSupport } from "./HomePage";
 
 export const PrivacyPolicyPage = () => {
     return (
@@ -20,7 +19,7 @@ export const PrivacyPolicyPage = () => {
                 <li>You may kick Core#3093 from your server, which will:</li>
                 <ul>Delete all stored Custom Commands on the server (removing data of your Guild/Server's ID)</ul>
                 <h2>Can I contact you?</h2>
-                <li>To contact me, <a href="https://discordapp.com/users/968247668973383716" target="_blank" rel="noreferrer">Skyy#0268</a>, you can reach out to me on the official <a onClick={redirectToSupport}>Core Bot Discord server</a>.</li>
+                <li>To contact me, <a href="https://discordapp.com/users/968247668973383716" target="_blank" rel="noreferrer">Skyy#0268</a>, you can reach out to me on the official Core Bot Discord server.</li>
                 <hr></hr>
                 <h2>Thank you for using Core.</h2>
                 <span>You should also read:</span>

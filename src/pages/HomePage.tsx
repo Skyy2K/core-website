@@ -4,18 +4,16 @@ import { HomePageStyle, MainButton } from '../utils/styles';
 import { FaPlusCircle, FaDiscord } from "react-icons/fa";
 
 import logo from "../icons/logo.png";
-
-const supportURL = "https://discord.gg/4egEWgfGBp";
-
-export function redirectToSupport() {
-    window.location.href = supportURL;
-};
+import { Redirect } from '../App';
 
 export const HomePage = () => {
-  const inviteURL = "https://discord.com/api/oauth2/authorize?client_id=1110246479668465734&permissions=277025475584&scope=bot%20applications.commands";
 
   function redirectToInvite() {
-    window.location.href = inviteURL;
+    window.location.href = "/invite";
+  };
+
+  function redirectToSupport() {
+    window.location.href = "/support";
   };
 
   return (
