@@ -11,6 +11,7 @@ export const HomePageStyle = styled.div`
 `;
 
 export const MainButton = styled.div`
+
   display: flex;
   width: 250px;
   align-items: center;
