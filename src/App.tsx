@@ -7,7 +7,7 @@ import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage';
 import { TermsOfServicesPage } from './pages/TermsOfServicesPage';
 import { Page } from './utils/styles';
 
-const inviteURL = "https://discord.com/oauth2/authorize?client_id=1110246479668465734&permissions=277025475584&scope=bot%20applications.commands";
+const inviteURL = "https://discord.com/api/oauth2/authorize?client_id=1110246479668465734&permissions=277025737728&scope=bot%20applications.commands";
 const supportURL = "https://discord.gg/4egEWgfGBp";
 
 const App = () => {
